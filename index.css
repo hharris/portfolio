@@ -8,16 +8,27 @@ body {
 }
 
 #container {
-    max-width:          1280px;
-    height: 100vh;
+    min-width:          880px;
+    max-width:          1200px;
+    height:             200vh;
     background-color:   #fff;
     padding:            40px;
-    margin: auto;
-    text-align: center;
+    margin:             auto;
+    text-align:         center;
+}
+
+#leaderboard {
+    width:              880px;
+    margin:             auto;
+    height:             90px;
+    background-color:   orange;
+    margin-bottom:      25px;
+    margin-top:         -15px;
 }
 
 #feature {
     width:              100%;
+    padding:            none;
     height:             450px;
     background-color:   green;
     margin-bottom:      40px;
@@ -31,8 +42,6 @@ body {
 }
 
 #left-content {
-    width:              72%;
     height:             100vh;
     background-color:   blue;
-    float: left;
 }
