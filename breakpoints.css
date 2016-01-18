@@ -1,0 +1,53 @@
+/* Index.css */
+
+body {
+    margin:             0px;
+    padding:            0px;
+    border:             none;
+    background-color:   #e8e8e8;
+}
+
+#container {
+    width:              880px;
+    height:             200vh;
+    background-color:   #fff;
+    padding:            40px;
+    margin:             auto;
+    text-align:         center;
+}
+
+#leaderboard {
+    width:              880px;
+    margin:             auto;
+    height:             90px;
+    background-color:   orange;
+    margin-bottom:      25px;
+    margin-top:         -15px;
+}
+
+#feature {
+    width:              100%;
+    padding:            none;
+    height:             450px;
+    background-color:   green;
+    margin-bottom:      40px;
+}
+
+#right-rail {
+    width:              300px;
+    height:             100vh;
+    background-color:   red;
+    float:              right;
+}
+
+#left-content {
+    height:             100vh;
+    background-color:   blue;
+}
+
+
+@media only screen and (min-width : 1600px) {
+    #container {
+        width:              1200px;
+    }
+}
